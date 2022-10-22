@@ -1,17 +1,57 @@
 $prefix: "../";
-$color__black: #000;
+$color__black: #020202;
 $color__yellow: #eca24d;
 $footer-height: 33px;
+$img__about:
+    $prefix+"img/about/about-s1.jpg",
+    $prefix+"img/about/about-s2.jpg";
+$img__about--v:
+    $prefix+"img/about/about-s1v.jpg",
+    $prefix+"img/about/about-s2v.jpg";
+$img__basket:
+    "",
+    $prefix+"img/about/about-s2.jpg";
+$img__basket--v:
+    "",
+    $prefix+"img/about/about-s2v.jpg";
 $img__comingsoon: $prefix+"img/comingsoon.jpg";
+$img__contact:
+    "",
+    $prefix+"img/contact/contact-s2.jpg",
+    $prefix+"img/contact/contact-s3.jpg";
 $img__error: $prefix+"img/error.jpg";
+$img__index: $prefix+"img/index/index-s1.jpg";
+$img__index--v: $prefix+"img/index/index-s1v.jpg";
+$img__order: $prefix+"img/order/order-s2.jpg";
+$img__order--v: $prefix+"img/order/order-s2v.jpg";
 $img__privacy: $prefix+"img/privacy.jpg";
 $img__aoa:
+    $img__about,
+    $img__basket,
     $img__comingsoon,
+    $img__contact,
     $img__error,
+    $img__index,
+    $img__order,
     $img__privacy;
+$img__aoa--v:
+    $img__about--v,
+    $img__basket--v,
+    $img__index--v,
+    $img__order--v;
 $img__classes:
+    "about",
+    "basket",
     "comingsoon",
+    "contact",
     "error",
+    "index",
+    "order",
     "privacy";
+$img__classes--v:
+    "about",
+    "basket",
+    "index",
+    "order";
 $logo__height: 40px;
 $text__shadow: 1px 1px 3px #000;
